@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 
 from setuptools import setup
-import sys
 
-install_requires = []
+install_requires = [
+    'six>=1.6.1'
+]
 
 setup(
     name='proof',
-    version='0.3.0',
+    version='0.4.0',
     description='A Python library for creating optimized, repeatable and self-documenting data analysis pipelines.',
     long_description=open('README').read(),
     author='Christopher Groskopf',
